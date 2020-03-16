@@ -20,7 +20,7 @@ data\images\train\100.jpg
 ```
 
 
-With the labels in hand, we followed the tutorial \[2\] and configured our tiny-yolov3.cfg file (see configuration/cfg/tiny-yolov3.cfg), the created names file (see configuration/data/bee.names) and the data file (configuration/data/bee.data). And finally, download pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74, and saved it into configuration//weights:
+With the labels in hand, we followed the tutorial \[2\] and configured our tiny-yolov3.cfg file (see configuration/cfg/tiny-yolov3.cfg), the created names file (see configuration/data/bee.names) and the data file (configuration/data/bee.data). And finally, download pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74, and saved it into configuration/weights:
 ```
 wget https://pjreddie.com/media/files/darknet53.conv.74
 ```
