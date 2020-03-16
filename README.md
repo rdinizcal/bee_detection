@@ -11,7 +11,7 @@ First, we cloned repository into configuration/:
 git clone https://github.com/ultralytics/yolov3
 ```
 
-Secondary, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing images and labels out of the videos (see configuration/data/images and configuration/data/labels), and saved all the paths of images into a txt file (see configuration/data/bee.txt). In that file, each row contains a path to an image, and remember one label must also be saved in a corresponding */labels folder for each image that has targets, like
+Second, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing images and labels out of the videos (see configuration/data/images and configuration/data/labels), and saved all the paths of images into a txt file (see configuration/data/bee.txt). In that file, each row contains a path to an image, and remember one label must also be saved in a corresponding */labels folder for each image that has targets, like
 ```
 data\images\train\0.jpg
 data\images\train\1.jpg
