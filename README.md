@@ -13,10 +13,10 @@ git clone https://github.com/ultralytics/yolov3
 
 Secondary, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing labels out of the videos (see configuration/labels), and saved that file into */data/. In that file, each row contains a path to an image, and remember one label must also be saved in a corresponding /labels folder for each image that has targets, like
 ```
-data\coco\images\train\0.jpg
-data\coco\images\train\1.jpg
-data\coco\images\train\10.jpg
-data\coco\images\train\100.jpg
+data\images\train\0.jpg
+data\images\train\1.jpg
+data\images\train\10.jpg
+data\images\train\100.jpg
 ```
 
 
