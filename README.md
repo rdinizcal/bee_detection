@@ -18,7 +18,7 @@ data\images\train\1.jpg
 data\images\train\10.jpg
 data\images\train\100.jpg
 ```
-
+For reusing our training set, you can just copy all the images in the*.zip files (see configuration/data/images/train/train0.zip...) into configuration/data/images/train/ and all the labels in the *zip file (see configuration/data/train/train/train.zip...) into configuration/data/label/train/.
 
 With the labels in hand, we followed the tutorial \[2\] and configured our tiny-yolov3.cfg file (see configuration/cfg/tiny-yolov3.cfg), the created names file (see configuration/data/bee.names) and the data file (configuration/data/bee.data). And finally, download pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74, and saved it into configuration/weights:
 ```
