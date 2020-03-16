@@ -6,7 +6,7 @@ This repository contains the files and appropriate explanation on how to replica
 The repository is divided in two main folders, the configuration and the results. The configuration contains every file used for configuring the off-the-shelf darknet framework \[4\], including the weights generated after training. The results folder contains the output video of the bees detection.
 
 ## How we trained our model
-First, we cloned repository:
+First, we cloned repository into configuration/:
 ```
 git clone https://github.com/ultralytics/yolov3
 ```
