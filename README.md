@@ -11,7 +11,7 @@ First, we cloned repository:
 git clone https://github.com/ultralytics/yolov3
 ```
 
-Secondary, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing images and labels out of the videos (see data/images and data/label), and saved all the paths of images into a txt file (see data/bee.txt). In that file, each row contains a path to an image, and remember one label must also be saved in a corresponding /labels folder for each image that has targets, like
+Secondary, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing images and labels out of the videos (see configuration/data/images and configuration/data/label), and saved all the paths of images into a txt file (see configuration/data/bee.txt). In that file, each row contains a path to an image, and remember one label must also be saved in a corresponding */labels folder for each image that has targets, like
 ```
 data\images\train\0.jpg
 data\images\train\1.jpg
@@ -20,7 +20,7 @@ data\images\train\100.jpg
 ```
 
 
-With the labels in hand, we followed the tutorial \[2\] and configured our */cfg/tiny-yolov3.cfg file (see configuration/cfg) the created names file (see data/bee.names) and the data file (data/bee.data) into */data/. And finally, download pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74, and saved it into /weight:
+With the labels in hand, we followed the tutorial \[2\] and configured our tiny-yolov3.cfg file (see configuration/cfg/tiny-yolov3.cfg), the created names file (see configuration/data/bee.names) and the data file (configuration/data/bee.data). And finally, download pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74, and saved it into configuration//weights:
 ```
 wget https://pjreddie.com/media/files/darknet53.conv.74
 ```
