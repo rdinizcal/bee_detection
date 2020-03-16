@@ -6,7 +6,7 @@ This repository contains the files and appropriate explanation on how to replica
 The repository is divided in two main folders, the configuration and the results. The configuration contains every file used for configuring the off-the-shelf darknet framework \[4\], including the weights generated after training. The results folder contains the output video of the bees detection.
 
 ## How we trained our model
-First, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing labels out of the videos (see configuration/labels). With the labels in hand, we followed the tutorial \[2\] and configured our tiny-yolov3.cfg file (see configuration/cfg) the names file (see configuration/names) and the data file (configuration/data). And finally, pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74:
+First, we downloaded videos containing bees that were previously used for an analysis with motion detection \[1\]. Then, we used the YAT \[3\] tool for creating and storing labels out of the videos (see configuration/labels). With the labels in hand, we followed the tutorial \[2\] and configured our tiny-yolov3.cfg file (see configuration/cfg) the names file (see configuration/names) and the data file (configuration/data). And finally, download pretrained weights for YOLOv3 from https://pjreddie.com/media/files/darknet53.conv.74:
 ```
 wget https://pjreddie.com/media/files/darknet53.conv.74
 ```
