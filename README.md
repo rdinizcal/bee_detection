@@ -30,7 +30,7 @@ To train the model, we executed the command:
 run train.py --data data/bee.data --cfg cfg/yolov3-tiny.cfg --weights weights/darknet53.conv.74 
 ```
 
-The model was saved in a the model.pt file (see configuration/weights).
+The model was saved in a the last.pt file (see configuration/weights).
 
 ## How we detected the object
 
@@ -45,7 +45,7 @@ Which saved a video (results/HT_Vid_detected.mp4) where the object detection is 
 1. Kulyukin, Vladimir, and Sarbajit Mukherjee. "On Video Analysis of Omnidirectional Bee Traffic: Counting Bee Motions with Motion Detection and Image Classification." Applied Sciences 9.18 (2019): 3743.
 2. [How to train YOLOv3 to detect custom objects](https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects-ccbcafeb13d2), Accessed on 15/03 at 20:23.
 3. [YAT - An open-source data annotation tool for YOLO](https://medium.com/@vinay.dec26/yat-an-open-source-data-annotation-tool-for-yolo-8bb75bce1767)
-4. [An open-source pretrained weights for YOLOv3]https://pjreddie.com/media/files/darknet53.conv.74
+4. [An open-source pretrained weights for YOLOv3](https://pjreddie.com/media/files/darknet53.conv.74)
 
 ## Authors
 * Johan Karlsson
